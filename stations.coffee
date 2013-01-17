@@ -1,4 +1,4 @@
-var STATIONS = {
+STATIONS = 
   "12th": "12th St. Oakland City Center",
   "16th": "16th St. Mission",
   "19th": "19th St. Oakland",
@@ -42,8 +42,5 @@ var STATIONS = {
   "ucty": "Union City",
   "wcrk": "Walnut Creek",
   "woak": "West Oakland"
-}
 
-exports.abbrToStation = function(abbr){
-  return STATIONS[abbr];
-}
+exports.abbrToStation = (abbr)-> STATIONS[abbr]
