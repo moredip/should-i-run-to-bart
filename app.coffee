@@ -20,6 +20,7 @@ app.configure 'development', ->
   app.use(express.errorHandler())
 
 app.get('/', routes.index)
+app.get('/stations/?', routes.stations)
 app.get('/stations/:abbr', routes.station)
 
 http.createServer(app).listen app.get('port'), ->

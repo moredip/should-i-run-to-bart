@@ -2,7 +2,22 @@ stations = require('./stations')
 bart = require('./bart')
 
 exports.index = (req, res)->
-  res.render('index', { title: 'Express' })
+  res.redirect('/stations')
+
+exports.stations = (req,res)->
+  stationVMs = for abbr, name of stations.allStations()
+    {
+      link: "/stations/#{abbr}"
+      desc: name
+    }
+
+  console.log stationVMs
+
+  res.render 'stations',
+    title: "Chose a station"
+    stations: stationVMs
+
+
 
 exports.station = (req,res)->
   abbr = req.params.abbr

@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  body
+    ul
+      each station in stations
+        li
+          a(href=station.link)
+            =station.desc

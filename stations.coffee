@@ -44,3 +44,4 @@ STATIONS =
   "woak": "West Oakland"
 
 exports.abbrToStation = (abbr)-> STATIONS[abbr.toLowerCase()]
+exports.allStations = ()-> STATIONS
