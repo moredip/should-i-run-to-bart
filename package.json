@@ -20,6 +20,7 @@
   "author": "Pete Hodgson",
   "license": "Apache 2.0",
   "dependencies": {
+    "coffee-script": "1.4.x",
     "express": "3.0.6",
     "jade": "*",
     "bart-api": "0.0.0"
