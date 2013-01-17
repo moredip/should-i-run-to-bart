@@ -1,0 +1,18 @@
+{
+  "name": "should-i-run-to-bart",
+  "version": "0.0.0",
+  "description": "Do you need to run in order to get the BART train you want?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "BART",
+    "train",
+    "transit",
+    ""
+  ],
+  "author": "Pete Hodgson",
+  "license": "Apache 2.0"
+}
