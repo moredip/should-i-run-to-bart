@@ -2,9 +2,9 @@
   "name": "should-i-run-to-bart",
   "version": "0.0.0",
   "description": "Do you need to run in order to get the BART train you want?",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app"
   },
   "repository": "",
   "keywords": [
@@ -14,5 +14,10 @@
     ""
   ],
   "author": "Pete Hodgson",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "dependencies": {
+    "express": "3.0.6",
+    "jade": "*"
+  }
+
 }
