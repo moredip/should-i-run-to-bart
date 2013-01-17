@@ -4,7 +4,7 @@
   "description": "Do you need to run in order to get the BART train you want?",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app"
+    "start": "node app"
   },
   "repository": "",
   "keywords": [
@@ -17,7 +17,7 @@
   "license": "Apache 2.0",
   "dependencies": {
     "express": "3.0.6",
-    "jade": "*"
+    "jade": "*",
+    "bart-api": "0.0.0"
   }
-
 }

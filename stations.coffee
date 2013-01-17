@@ -43,4 +43,4 @@ STATIONS =
   "wcrk": "Walnut Creek",
   "woak": "West Oakland"
 
-exports.abbrToStation = (abbr)-> STATIONS[abbr]
+exports.abbrToStation = (abbr)-> STATIONS[abbr.toLowerCase()]

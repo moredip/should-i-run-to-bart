@@ -12,3 +12,18 @@ block content
         span.distance  
           =distance
         |  away.
+
+    section.departures
+      ul
+        each etd in etds
+          li
+            h1
+              =etd.destName
+              |  train
+            .advice
+               | Will you make it?
+            .details
+              .etd
+                |  Train leaves in 
+                = etd.departing
+                |  minutes
