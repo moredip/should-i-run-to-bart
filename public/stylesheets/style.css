@@ -1,8 +1,40 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #eee;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+section.location {
+  width: 100%;
+  text-align: center;
+  background: #333;
+  color: #eee;
+  padding: 1em 0em;
+}
+
+section.location span.station-name {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+section.location span.distance {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+section.departures li {
+  background: #bbb;
+  margin: 0.5em;
+}
+
+section.departures h1 {
+  font-size: 35pt;
+  /*float: left;*/
+}
+
+section.departures .advice {
+  font-size: 30pt;
+  font-style: italic;
+  /*float: right;*/
+}
+section.departures .details {
 }

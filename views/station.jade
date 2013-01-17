@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  body
+    section.location
+      .station
+        span.station-name
+          =stationName
+        |  is your nearest BART station.
+      .distance
+        | It's about
+        span.distance  
+          =distance
+        |  away.
